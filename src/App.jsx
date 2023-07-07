@@ -4,6 +4,7 @@ import { Greeting } from './components/Greeting';
 import { ParentComponent } from './components/ParentComponent';
 import { Counter } from './components/Counter/Counter';
 import { Timer } from './components/Timer/Timer';
+import { LoginForm } from './components/LoginForm/LoginForm';
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
       <ParentComponent/>
       <Counter/>
       <Timer/>
+      <LoginForm/>
 
     </div>
   );

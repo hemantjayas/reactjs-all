@@ -6,7 +6,7 @@ export const Timer = () => {
     useEffect(() => {
      
        const intervalID =  setInterval(() => {
-            setTimer((prevTimer)=> prevTimer+1)
+            // setTimer((prevTimer)=> prevTimer+1)
             
         }, 1000);   
     
