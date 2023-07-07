@@ -5,6 +5,7 @@ import { ParentComponent } from './components/ParentComponent';
 import { Counter } from './components/Counter/Counter';
 import { Timer } from './components/Timer/Timer';
 import { LoginForm } from './components/LoginForm/LoginForm';
+import { ToggleContent } from './components/ToggleContent/ToggleContent';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
       <Counter/>
       <Timer/>
       <LoginForm/>
+      <ToggleContent/>
 
     </div>
   );
