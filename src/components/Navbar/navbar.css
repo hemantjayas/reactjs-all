@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    background-color: gray;
+    color: white;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+
+}
+
+#logo {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.navContent {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navContent li {
+    cursor: pointer;
+    font-size: 1.2rem;
+}

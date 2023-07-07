@@ -1,22 +1,18 @@
 import './App.css';
-import { useState } from 'react';
-import { Greeting } from './components/Greeting';
-import { ParentComponent } from './components/ParentComponent';
-import { Counter } from './components/Counter/Counter';
-import { Timer } from './components/Timer/Timer';
-import { LoginForm } from './components/LoginForm/LoginForm';
-import { ToggleContent } from './components/ToggleContent/ToggleContent';
+import { Navbar } from './components/Navbar/Navbar';
+import { Route, Routes } from 'react-router-dom';
+import { Home } from './components/Home/Home';
 function App() {
 
 
   return (
     <div className="App">
-      <Greeting />
-      <ParentComponent/>
-      <Counter/>
-      <Timer/>
-      <LoginForm/>
-      <ToggleContent/>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />}  ></Route>
+        <Route path="/home" element={<Home />}  ></Route>
+      </Routes>
 
     </div>
   );
